@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+vvs_sol_token_full = "9Wxd8XZAomK6FAURaNdK5UsUXQ4CnpLU9YrB4ibFY3Fr"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/rtdev-mac/my-solana-wallet/my-keypair.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
